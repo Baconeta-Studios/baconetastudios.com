@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Slab:wght@100..900&display=swap');
+
 body {
     margin: 0;
     display: flex;
@@ -57,16 +59,45 @@ h1 {
 }
 
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5rem;
+    width: 100%;
+    background-color: var(--baconeta-green);
     & a {
-        padding: 1rem 2.5rem;
+        padding: 0.5rem 2rem;
+        margin: 0.5rem 2rem;
+
+        font-size: 1.75rem;
+        font-family: "Roboto Slab", system-ui, Avenir, Helvetica, Arial, sans-serif;
+        font-weight: bold;
+        color: var(--baconeta-white);
+    }
+    & a:hover {
+        color: var(--baconeta-green-complement);
     }
 }
 
 footer {
-    font-style: italic;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 3.5rem;
+    width: 100%;
+    background-color: var(--baconeta-lgrey);
 
     & a {
         padding: 1rem 2.5rem;
+
+        font-size: 0.9em; /* 80% parent */
+        font-family: "Roboto Slab", system-ui, Avenir, Helvetica, Arial, sans-serif;
+        font-weight: 300;
+        font-style: italic;
+        color: var(--baconeta-white);
+    }
+    & a:hover {
+        color: var(--baconeta-green);
     }
 }
 
