@@ -14,13 +14,21 @@ body {
 
 :root {
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    --baconeta-black: black;
+    --baconeta-dgrey: #3A3A3C;
+    --baconeta-lgrey: #6D6E71;
+    --baconeta-white: white;
+    --baconeta-green: #86C54E;
+    --baconeta-green-complement: #793AB1;
+    --baconeta-blue: #4E86C5;
+    --baconeta-pink: #C54E86;
     line-height: 1.5;
     font-weight: 400;
     text-align: center;
 
     color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);
-    background-color: #242424;
+    background-color: var(--baconeta-dgrey);
 
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -83,10 +91,10 @@ button:focus-visible {
 
 a {
     font-weight: 500;
-    color: #646cff;
+    color: var(--baconeta-white);
     text-decoration: inherit;
 }
 
 a:hover {
-    color: #535bf2;
+    color: var(--baconeta-blue);
 }
