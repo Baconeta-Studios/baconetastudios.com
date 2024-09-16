@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Slab:wght@100..900&display=swap');
 
 body {
-    margin: 0;
     display: flex;
     place-items: center;
     min-width: 320px;
@@ -9,13 +8,14 @@ body {
 }
 
 #root {
+    /* 5rem top-offset to account for header */
+    /* 4rem bottom-offset to account for footer */
+    margin: 5rem auto 3rem auto;
     max-width: 1280px;
-    margin: 0 auto;
     padding: 2rem;
 }
 
 :root {
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     --baconeta-black: black;
     --baconeta-dgrey: #3A3A3C;
     --baconeta-lgrey: #6D6E71;
@@ -24,6 +24,8 @@ body {
     --baconeta-green-complement: #793AB1;
     --baconeta-blue: #4E86C5;
     --baconeta-pink: #C54E86;
+
+    font-family: Nunito, system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
     text-align: center;
