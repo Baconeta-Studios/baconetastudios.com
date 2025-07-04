@@ -7,7 +7,7 @@ export default function Footer() {
             <div className={"flex-row"}>
                 <Link to={"/"} className={"flex-item"} >About Us</Link>
                 <Link to={"/contact"} className={"flex-item"} >Contact Us</Link>
-                <Link to={"https://github.com/Baconeta-Studios/"} className={"flex-item"} >Our Github</Link>
+                <Link to={"https://github.com/Baconeta-Studios/"} className={"flex-item"} >Our GitHub</Link>
             </div>
         </header>
     );
