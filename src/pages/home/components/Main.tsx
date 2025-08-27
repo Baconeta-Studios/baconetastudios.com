@@ -5,5 +5,4 @@ export default function Main() {
             <p>A musical puzzle adventure</p>
         </div>
     );
-    //TODO Add image instead of title
 }
