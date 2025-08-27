@@ -24,6 +24,9 @@ body {
     --baconeta-green-complement: #793AB1;
     --baconeta-blue: #4E86C5;
     --baconeta-pink: #C54E86;
+    --sts-red: #D3272C;
+    --sts-cyan: #65C5B6;
+    --sts-teal: #114D5A;
 
     font-family: Lato, sans-serif;
     font-weight: 400;
@@ -71,7 +74,7 @@ header {
     left: 0;
     height: 5rem;
     width: 100%;
-    background-color: var(--baconeta-green);
+    background-color: var(--sts-teal);
     & a {
         padding: 0.5rem 2rem;
         margin: 0.5rem 2rem;
@@ -83,7 +86,7 @@ header {
         color: var(--baconeta-white);
     }
     & a:hover {
-        color: var(--baconeta-green-complement);
+        color: var(--sts-cyan);
     }
 }
 
