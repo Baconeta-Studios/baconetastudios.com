@@ -25,9 +25,10 @@ body {
     --baconeta-blue: #4E86C5;
     --baconeta-pink: #C54E86;
 
-    font-family: Nunito, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    line-height: 1.5;
+    font-family: Lato, sans-serif;
     font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
     text-align: center;
 
     color-scheme: light dark;
@@ -58,6 +59,10 @@ body {
 h1 {
     font-size: 3.2em;
     line-height: 1.1;
+    font-family: "Grandstander", cursive;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
 }
 
 header {
@@ -71,9 +76,10 @@ header {
         padding: 0.5rem 2rem;
         margin: 0.5rem 2rem;
 
-        font-size: 1.75rem;
-        font-family: "Roboto Slab", system-ui, Avenir, Helvetica, Arial, sans-serif;
-        font-weight: bold;
+        font-size: 1.25rem;
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-style: normal;
         color: var(--baconeta-white);
     }
     & a:hover {
@@ -130,4 +136,17 @@ a {
 
 a:hover {
     color: var(--baconeta-blue);
+}
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.grandstander-title {
+    font-family: "Grandstander", cursive;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
 }
