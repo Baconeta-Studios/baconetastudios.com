@@ -1,7 +1,7 @@
 export default function About() {
     return (
         <div>
-            <p>We make great games</p>
+            <h3>About Setting the Stage</h3>
         </div>
     );
 }
