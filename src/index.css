@@ -27,6 +27,7 @@ body {
     --sts-red: #D3272C;
     --sts-cyan: #65C5B6;
     --sts-teal: #114D5A;
+    --badge-height: 25px;
 
     font-family: Lato, sans-serif;
     font-weight: 400;
@@ -159,4 +160,24 @@ a:hover {
     margin: 0 auto;      /* center horizontally */
     max-width: 100%;
     height: auto;
+}
+
+.badge-outer {
+    height: var(--badge-height);
+    min-height: max(7.6mm, 10px); /* As per Google and Apple marketing rules. */
+    padding: calc(var(--badge-height) * 0.25); /* As per Google and Apple marketing rules. */
+}
+
+.badge-inner {
+    margin: 0;
+    padding: 0;
+}
+
+.badge-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    margin: 0;
+    padding: 0;
 }
