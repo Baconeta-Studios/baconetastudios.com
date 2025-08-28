@@ -11,7 +11,7 @@ export default function GooglePlayBadge() {
             >
                 <img
                     src={"./thirdparty/Google_Play_Store_badge_EN.svg"}
-                    alt={"Get It On Google Playstore Badge"}
+                    alt={"Google Play Badge"}
                     className={"badge-image"}
                 >
                 </img>
