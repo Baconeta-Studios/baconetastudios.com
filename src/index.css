@@ -37,7 +37,7 @@ body {
 
     color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);
-    background-color: var(--baconeta-dgrey);
+    background-color: var(--baconeta-black);
 
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -97,7 +97,7 @@ footer {
     left: 0;
     height: 3.5rem;
     width: 100%;
-    background-color: var(--baconeta-lgrey);
+    background-color: var(--sts-teal);
 
     & a {
         padding: 1rem 2.5rem;
