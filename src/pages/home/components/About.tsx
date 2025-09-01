@@ -1,7 +1,8 @@
 export default function About() {
     return (
         <div>
-            <h3>About Setting the Stage</h3>
+            <h1>About Setting the Stage</h1>
+            <p>TODO</p>
         </div>
     );
 }

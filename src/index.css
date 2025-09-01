@@ -181,3 +181,7 @@ a:hover {
     margin: 0;
     padding: 0;
 }
+
+.sts-link {
+    color: var(--sts-red);
+}
