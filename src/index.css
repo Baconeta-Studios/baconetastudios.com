@@ -162,6 +162,27 @@ a:hover {
     height: auto;
 }
 
+.hero {
+    position: relative;
+    width: 100%;
+    overflow: hidden; /* ensures no scrollbars if image overflows */
+}
+
+.hero img.bg {
+    width: 100%;   /* stretch to fill width */
+    height: auto;  /* keep proportions */
+    display: block;
+}
+
+.hero img.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 80%;  /* shrink if too big */
+    height: auto;
+}
+
 .badge-outer {
     height: var(--badge-height);
     min-height: min(7.6mm, 10px); /* As per Google and Apple marketing rules. */
