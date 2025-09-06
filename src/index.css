@@ -27,7 +27,7 @@ body {
     --sts-red: #D3272C;
     --sts-cyan: #65C5B6;
     --sts-teal: #114D5A;
-    --badge-height: 60px;
+    --badge-height: 80px;
 
     font-family: Lato, sans-serif;
     font-weight: 400;
@@ -219,7 +219,7 @@ hr {
 }
 
 .download-title {
-    margin: 40px 0 0 0;
+    margin: 40px 0 10px 0;
 }
 
 .comic-image {
@@ -230,4 +230,15 @@ hr {
 
 .rounded-corners {
     border-radius: 15px;
+}
+
+.hero .overlay-text {
+    position: absolute;   /* positions on top of the background */
+    top: 70%;             /* adjust as needed */
+    left: 50%;
+    transform: translate(-50%, -70%);
+    color: var(--baconeta-white);
+    font-size: 2.5rem;
+    text-align: center;
+    /*text-shadow: 1px 1px 4px rgba(0,0,0,0.7); !* makes it readable on any background *!*/
 }
