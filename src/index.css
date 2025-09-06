@@ -221,3 +221,13 @@ hr {
 .download-title {
     margin: 40px 0 0 0;
 }
+
+.comic-image {
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.rounded-corners {
+    border-radius: 15px;
+}
