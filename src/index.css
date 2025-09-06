@@ -27,7 +27,7 @@ body {
     --sts-red: #D3272C;
     --sts-cyan: #65C5B6;
     --sts-teal: #114D5A;
-    --badge-height: 25px;
+    --badge-height: 60px;
 
     font-family: Lato, sans-serif;
     font-weight: 400;
@@ -164,7 +164,7 @@ a:hover {
 
 .badge-outer {
     height: var(--badge-height);
-    min-height: max(7.6mm, 10px); /* As per Google and Apple marketing rules. */
+    min-height: min(7.6mm, 10px); /* As per Google and Apple marketing rules. */
     padding: calc(var(--badge-height) * 0.25); /* As per Google and Apple marketing rules. */
 }
 
@@ -184,4 +184,8 @@ a:hover {
 
 .sts-link {
     color: var(--sts-red);
+}
+
+.badge-container {
+    display: inline-flex;
 }

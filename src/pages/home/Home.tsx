@@ -5,15 +5,21 @@ import Footer from "../Footer";
 import Main from "./components/Main.tsx";
 import About from "./components/About.tsx";
 import HeroImageStS from "./components/HeroImageStS.tsx";
+import GooglePlayBadge from "../../assets/GooglePlayBadge.tsx";
+import AppleStoreBadge from "../../assets/AppleStoreBadge.tsx";
 
 export default function Home() {
     return (
         <>
-            <Header />
-            <Main />
-            <HeroImageStS />
-            <About />
-            <Footer />
+            <Header/>
+            <Main/>
+            <div className="badge-container">
+                <GooglePlayBadge/>
+                <AppleStoreBadge/>
+            </div>
+            <HeroImageStS/>
+            <About/>
+            <Footer/>
         </>
     );
 }
