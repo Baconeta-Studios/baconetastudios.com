@@ -8,7 +8,7 @@ export default function Main() {
             </div>
             {/*<p>A musical puzzle adventure.*/}
             {/*<br/>Give your feedback <a className="sts-link" href="https://forms.gle/3ezPYAAhuyHWZHjY9">here</a></p>*/}
-            <h2>Download Now</h2>
+            <h2 className={"download-title"}>Download Now</h2>
         </div>
     );
 }

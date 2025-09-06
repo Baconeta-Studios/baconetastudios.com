@@ -4,7 +4,7 @@ import Footer from "../Footer";
 // Import page components.
 import Main from "./components/Main.tsx";
 import About from "./components/About.tsx";
-import HeroImageStS from "./components/HeroImageStS.tsx";
+import ComicPanelSts from "./components/ComicPanelSts.tsx";
 import StoreBadges from "../../assets/StoreBadges.tsx";
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
             <Main/>
             <StoreBadges/>
             <hr />
-            <HeroImageStS/>
+            <ComicPanelSts/>
             <About/>
             <Footer/>
         </>

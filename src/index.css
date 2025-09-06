@@ -10,9 +10,9 @@ body {
 #root {
     /* 5rem top-offset to account for header */
     /* 4rem bottom-offset to account for footer */
-    margin: 5rem auto 3rem auto;
-    max-width: 1280px;
-    padding: 2rem;
+    margin: 4.5rem -0.5rem 3rem -0.5rem;
+    /*max-width: 1280px;*/
+    /*padding: 2rem;*/
 }
 
 :root {
@@ -70,6 +70,7 @@ h1 {
 }
 
 header {
+    z-index: 10;
     position: fixed;
     top: 0;
     left: 0;
@@ -163,6 +164,7 @@ a:hover {
 }
 
 .hero {
+    z-index: 1;  /* lower than header */
     position: relative;
     width: 100%;
     overflow: hidden; /* ensures no scrollbars if image overflows */
@@ -176,10 +178,10 @@ a:hover {
 
 .hero img.title {
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 80%;  /* shrink if too big */
+    transform: translate(-50%, -20%);
+    max-width: 40%;  /* shrink if too big */
     height: auto;
 }
 
@@ -214,4 +216,8 @@ a:hover {
 hr {
     margin-bottom: 60px;
     margin-top: 40px;
+}
+
+.download-title {
+    margin: 40px 0 0 0;
 }
