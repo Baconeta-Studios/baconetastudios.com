@@ -1,6 +1,6 @@
 export default function GooglePlayBadge() {
     return (
-        <div className="badge-outer">
+        <div className="badge-outer-google">
             <a
                 href={"https://play.google.com/store/apps/details?id=com.BaconetaStudios.SettingTheStage&referrer=utm_source%3Dbaconetastudios%26utm_medium%3Dwebsite%26utm_content%storebadge"}
                 className={"badge-inner"}
