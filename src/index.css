@@ -308,7 +308,7 @@ hr {
         top: 5rem; /* below header */
         right: 1rem;
         padding: 1rem;
-        border-radius: 6px;
+        border-radius: 0;
     }
 
     .nav-links.show {
