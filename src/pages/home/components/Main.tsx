@@ -7,7 +7,9 @@ export default function Main() {
                 <div className="overlay-text">a musical puzzle adventure</div>
 
                 {/* Circle Badge */}
-                <div className={"hero-circle"}>GIVE US<br/>YOUR<br/>FEEDBACK!</div>
+                <a href="https://forms.gle/3ezPYAAhuyHWZHjY9" className="badge">
+                    <div className={"hero-circle"}>GIVE US<br/>YOUR<br/>FEEDBACK!</div>
+                </a>
             </div>
 
             <h2 className={"download-title"}>Download Now</h2>
