@@ -321,23 +321,28 @@ hr {
 
 .hero-circle {
     position: absolute;
-    bottom: -25px;             /* pushes the circle below the hero */
-    left: 75%;                 /* centers it horizontally */
+    bottom: -25px;              /* pushes the circle below the hero */
+    left: 75%;                   /* 75% across the hero */
     transform: translateX(-50%) rotate(-15deg); /* anticlockwise tilt */
 
-    width: 150px;              /* circle size */
-    height: 150px;
+    width: 20vw;                 /* scales relative to viewport width */
+    max-width: 200px;            /* don’t get bigger than this */
+    min-width: 80px;             /* optional: never smaller than this */
+    aspect-ratio: 1 / 1;         /* keep it a perfect circle */
     border-radius: 50%;
-    background-color: var(--sts-cyan); /* pick your colour */
+    background-color: var(--sts-cyan);
 
     display: flex;
-    justify-content: center; /* horizontal center */
-    align-items: center;     /* vertical center */
+    justify-content: center;     /* horizontal center */
+    align-items: center;         /* vertical center */
 
     color: var(--baconeta-white);
-    font-size: 1.3rem;
+    font-size: clamp(0.8rem, 2vw, 1.3rem); /* shrinks/grows with screen */
     font-family: "Grandstander", serif;
     font-weight: bold;
     text-align: center;
-    z-index: 2;                /* sits above hero background but below header */
+    z-index: 2;                  /* sits above hero background but below header */
+
+    padding: 10px;               /* optional inner spacing for text */
+    box-sizing: border-box;      /* include padding inside width */
 }
