@@ -35,7 +35,6 @@ body {
     font-style: normal;
     line-height: 1.5;
     text-align: center;
-    width: 100%;
 
     color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);
@@ -175,7 +174,7 @@ a:hover {
     z-index: 1;  /* lower than header */
     position: relative;
     width: 100%;
-    overflow: hidden; /* ensures no scrollbars if image overflows */
+    overflow: visible; /* ensures no scrollbars if image overflows */
 }
 
 .hero img.bg {
@@ -318,4 +317,27 @@ hr {
     .hamburger {
         display: flex;
     }
+}
+
+.hero-circle {
+    position: absolute;
+    bottom: -25px;             /* pushes the circle below the hero */
+    left: 75%;                 /* centers it horizontally */
+    transform: translateX(-50%) rotate(-15deg); /* anticlockwise tilt */
+
+    width: 150px;              /* circle size */
+    height: 150px;
+    border-radius: 50%;
+    background-color: var(--sts-cyan); /* pick your colour */
+
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center;     /* vertical center */
+
+    color: var(--baconeta-white);
+    font-size: 1.3rem;
+    font-family: "Grandstander", serif;
+    font-weight: bold;
+    text-align: center;
+    z-index: 2;                /* sits above hero background but below header */
 }
