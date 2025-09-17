@@ -1,0 +1,41 @@
+.about-sts {
+    width: 80vw;
+    max-width: 1200px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.about-sts p {
+    margin: 0 0 1rem 0;
+}
+
+.about-sts h1 {
+    font-size: clamp(1.5rem, 5vw, 3.2rem);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0 0 1rem 0;
+}
+
+.story-so-far {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 2s ease;
+}
+
+.story-so-far.expanded {
+    max-height: 2000px;
+}
+
+.story-so-far h2 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.story-so-far p {
+    margin-bottom: 1rem;
+}

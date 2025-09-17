@@ -347,25 +347,3 @@ hr {
     box-sizing: border-box;      /* include padding inside width */
 }
 
-.about-sts {
-    width: 80vw;        /* 95% of the viewport width */
-    max-width: 1200px;  /* optional: prevent it from getting too wide on large screens */
-    margin-top: 60px;
-    margin-left: auto;     /* left-align the div itself */
-    margin-right: auto; /* optional if you want it flush left */
-    text-align: left;   /* left-justify text inside */
-    padding: 1rem;      /* optional: some inner spacing */
-    box-sizing: border-box;
-}
-
-.about-sts p {
-    margin: 0 0 1rem 0; /* spacing between elements */
-}
-
-.about-sts h1 {
-    font-size: clamp(1.5rem, 5vw, 3.2rem); /* min 1.5rem, max 3.2rem, scales with viewport */
-    white-space: nowrap;                    /* prevent wrapping to next line */
-    overflow: hidden;                       /* clip if too long */
-    text-overflow: ellipsis;                /* optional: show ... if clipped */
-    margin: 0 0 1rem 0;
-}
