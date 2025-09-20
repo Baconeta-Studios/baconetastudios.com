@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/home/Home.tsx";
 import ContactUs from "./pages/contact/ContactUs.tsx";
 import AboutUs from "./pages/sts/About.tsx";
+import PrivacyPolicy from "./pages/PrivacyPolicy.tsx";
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
                     <Route index element={<Home/>}/>
                     <Route path={'/'} element={<Home/>}/>
                     <Route path={'/contact'} element={<ContactUs/>}/>
+                    <Route path={'/privacy-policy'} element={<PrivacyPolicy/>}/>
                     <Route path={'/about'} element={<AboutUs/>}/>
                 </Routes>
             </BrowserRouter>

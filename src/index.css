@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Slab:wght@100..900&family=Grandstander:ital,wght@0,900;1,900&family=Lato&display=swap');
 
 body {
-    display: flex;
-    /*place-items: center;*/
     min-width: 320px;
     min-height: 100vh;
 }
@@ -347,3 +345,10 @@ hr {
     box-sizing: border-box;      /* include padding inside width */
 }
 
+.privacy-container {
+    max-width: 800px;
+    margin: 0 auto;       /* centers the content */
+    padding: 2rem 1rem;   /* breathing room top/bottom & sides */
+    line-height: 1.6;     /* easier to read paragraphs */
+    text-align: justify;   /* keep text aligned left for readability */
+}
