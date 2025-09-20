@@ -1,4 +1,4 @@
-export default function Main() {
+export default function StSMainContent() {
     return (
         <div>
             <div className={"hero"}>

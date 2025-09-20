@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/home/Home.tsx";
 import ContactUs from "./pages/contact/ContactUs.tsx";
 import AboutUs from "./pages/sts/About.tsx";
-import PrivacyPolicy from "./pages/PrivacyPolicy.tsx";
+import PrivacyPolicy from "./pages/privacy/PrivacyPolicy.tsx";
 
 function App() {
 

@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "./about.css";
+import "./AboutSts.css";
 
-export default function About() {
+export default function AboutStS() {
     const [expanded, setExpanded] = useState(false);
 
     return (
