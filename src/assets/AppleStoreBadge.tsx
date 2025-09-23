@@ -2,7 +2,7 @@ export default function GooglePlayBadge() {
     return (
         <div className="badge-outer">
             <a
-                href={"https://testflight.apple.com/join/Nnna492E"}
+                href={"https://apps.apple.com/us/app/setting-the-stage/id6736443805"}
                 className={"badge-inner"}
                 target={"_blank"}
                 rel="noopener noreferrer"
