@@ -58,7 +58,7 @@ export default function AboutStS() {
                     <br /><br />
                     “Well, welcome to the club,” Pete says with a half-smile. “Let’s see if we can’t turn things around, huh?”
                     <br /><br />
-                    As you start to untangle the cables and help set up the equipment, you notice a small group of musicians huddled together offstage, looking unsure of what to do next. They glance at Paul, and he notices and shrugs back. It hits you that Pete is not just struggling with the equipment, but with organising the whole show. You take a deep breath and decide to step up.
+                    As you start to untangle the cables and help set up the equipment, you notice a small group of musicians huddled together offstage, looking unsure of what to do next. They glance at Pete, and he notices and shrugs back. It hits you that Pete is not just struggling with the equipment, but with organising the whole show. You take a deep breath and decide to step up.
                     <br /><br />
                     “Hey, Pete,” you say, “how about I help you manage the stage tonight? I can handle the equipment and coordinate with the performers.”
                     <br /><br />
