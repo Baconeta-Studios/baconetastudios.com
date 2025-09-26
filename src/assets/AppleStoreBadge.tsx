@@ -1,4 +1,4 @@
-export default function GooglePlayBadge() {
+export default function AppleStoreBadge() {
     return (
         <div className="badge-outer">
             <a
