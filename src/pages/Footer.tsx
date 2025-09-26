@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 export default function Footer() {
     return (
         <footer className="flex-container">
@@ -10,12 +12,12 @@ export default function Footer() {
                 </a>
             </div>
             <div className="flex-row mt-2">
-                <a
-                    href="/privacy-policy"
+                <Link
+                    to="/privacy-policy"
                     className="flex-item"
                 >
                     Privacy Policy
-                </a>
+                </Link>
             </div>
         </footer>
     );
