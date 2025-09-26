@@ -13,8 +13,6 @@ export default function StSMainContent() {
             </div>
 
             <h2 className={"download-title"}>Download Now</h2>
-            <a href={"https://baconeta.itch.io/setting-the-stage-pc-demo"}><u>Download for PC</u></a>
-
         </div>
     );
 }
