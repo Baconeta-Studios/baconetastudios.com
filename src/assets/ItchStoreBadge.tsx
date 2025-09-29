@@ -1,6 +1,6 @@
 export default function ItchBadge() {
     return (
-        <div className="badge-outer">
+        <div className="badge-outer-itch">
             <a
                 href={"https://baconeta.itch.io/setting-the-stage-pc-demo"}
                 className={"badge-inner"}
